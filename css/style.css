@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: 30%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.header{
+    text-align: center;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #d8d8d8;
+}
+
+.input-fields{
+    margin-top: 15px;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: larger;
+}
+
+span, #welcome{
+    font-weight: bold;
+}
+
+img{
+    border-radius: 100px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    margin-left: 25%;
+}
+
+.center-all{
+    text-align: center;
+}
+
+#btn-logout{
+    background-color: red;
+}
+
+#btn-logout a{
+    text-decoration: none;
+    color:white;
+}
